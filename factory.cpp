@@ -56,6 +56,7 @@ class Carfactory
 int main()
 {
     string cartype;
+    cout<<"Please enter car type : "<<endl;
     cin>>cartype;
 
     Car *car = Carfactory::createCar(cartype);
